@@ -1,0 +1,85 @@
+/*Header*/
+
+h3 {
+    display: inline;
+}
+
+#Names_logos {
+    display: flex;
+justify-content: space-around;
+
+    color: blue;
+}
+
+#SCAA_LOGO {
+    width: 50px;
+}
+
+#RIIN_LOGO {
+    width: 50px;
+}
+
+/* Main */
+#Navigation_bar {
+    background-color: rgb(70, 67, 241);
+    padding: 5px;
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+
+#Language {
+    color: rgb(252, 249, 249);
+}
+
+#search {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(252, 251, 251);
+}
+
+#Xidmetler {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.Xidmet {
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+#Elaqe_bloku {
+    display: flex;
+background-color: blue;
+color: white;
+margin: 10px;
+padding: 20px;
+}
+
+/* Footer */
+
+.Contact_info {
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#xerite {
+    width: 1000px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
